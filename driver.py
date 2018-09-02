@@ -14,10 +14,26 @@ def read_directory(mypath):
 
 # Function you will be working with
 def create_knowledge_graph(contents_of_input_file, name_of_input_file):
-    # Through this function you have to use the contents of each file to create a knowledge graph
-    # The output has to be saved in the data/output folder with the same name as data/input file
-    # Note the writing to file has to be handled by you.
-    pass
+    # Check the versions of libraries
+
+# Python version
+import sys
+print('Python: {}'.format(sys.version))
+# scipy
+import scipy
+print('scipy: {}'.format(scipy.__version__))
+# numpy
+import numpy
+print('numpy: {}'.format(numpy.__version__))
+# matplotlib
+import matplotlib
+print('matplotlib: {}'.format(matplotlib.__version__))
+# pandas
+import pandas
+print('pandas: {}'.format(pandas.__version__))
+# scikit-learn
+import sklearn
+print('sklearn: {}'.format(sklearn.__version__))
 
 #Main function
 if __name__ == '__main__':
